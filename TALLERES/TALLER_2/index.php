@@ -1,0 +1,11 @@
+<?php
+$nombre = "Anthony Pineda";
+$edad = 24;
+$altura = 1.70;
+$esEstudiante = true;
+
+echo "Nombre: $nombre<br>";
+echo "Edad: $edad<br>";
+echo "Altura: $altura<br>";
+echo "¿Es estudiante? " . ($esEstudiante ? "Sí" : "No");
+?>
