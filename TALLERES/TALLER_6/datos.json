@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Anthony",
+        "email": "Anthonyy.p08@gmail.com",
+        "fecha_nacimiento": "2000-11-08",
+        "sitio_web": "https:\/\/www.google.com\/?hl=es",
+        "genero": "M",
+        "intereses": [
+            "Deporte"
+        ],
+        "comentarios": "todo fine",
+        "edad": 24
+    }
+]
