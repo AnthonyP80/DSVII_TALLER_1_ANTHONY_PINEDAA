@@ -51,4 +51,4 @@ $fraseModificada = primerLetraMinuscula($fraseOriginal);
 echo "</br>Frase original: $fraseOriginal</br>";
 echo "Frase modificada: $fraseModificada</br>";
 ?>
-      
+    
