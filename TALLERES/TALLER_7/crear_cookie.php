@@ -9,5 +9,5 @@ setcookie("usuario", "Anthony", [
     'samesite' => 'Strict'
 ]);
 
-echo "Cookie segura 'usuario' creado.";
+echo "Cookie segura 'usuario' creada.";
 ?>

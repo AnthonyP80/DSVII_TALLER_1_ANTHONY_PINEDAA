@@ -12,4 +12,3 @@ if (!isset($_SESSION['ultima_actividad']) || (time() - $_SESSION['ultima_activid
     $_SESSION['ultima_actividad'] = time();
 }
 ?>
-        
