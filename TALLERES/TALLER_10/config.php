@@ -1,5 +1,5 @@
 <?php
-define('GITHUB_TOKEN', getenv('GITHUB_TOKEN') ?: '');
+define('GITHUB_TOKEN', 'GITHUB_TOKEN_');
 define('GITHUB_API_URL', 'https://api.github.com');
 define('USER_AGENT', 'PHP GitHub API Client');
 
