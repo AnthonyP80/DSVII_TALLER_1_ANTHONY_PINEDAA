@@ -1,0 +1,93 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fondo general */
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta */
+.card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Título */
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs */
+.card input,
+.card textarea,
+.card select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botón */
+.card button {
+    width: 100%;
+    padding: 10px;
+    background: #4e73df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background: #375acb;
+}
+
+/* Enlaces */
+.card a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1cc88a;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes */
+.mensaje-error {
+    background: #f8d7da;
+    color: #842029;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.mensaje-exito {
+    background: #d1e7dd;
+    color: #0f5132;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
